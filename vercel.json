@@ -1,0 +1,7 @@
+{
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/pirates-quiz", "destination": "/pirates-quiz/index.html" },
+    { "source": "/pirates-quiz/(.*)", "destination": "/pirates-quiz/$1" }
+  ]
+}
